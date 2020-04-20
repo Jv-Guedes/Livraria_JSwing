@@ -20,9 +20,9 @@ public class CadastroLivroView extends javax.swing.JFrame {
     public CadastroLivroView() {
         initComponents();
         
-        LivroController listener = new LivroController(tituloTextField);
+        LivroController listener = new LivroController(tituloTextField); //Erro esta acontecendo nessa instancia
         
-        cadastrarButton.addActionListener(listener);
+        cadastrarButton.addActionListener(listener); //erro nessa instancia 
         
     }
 
